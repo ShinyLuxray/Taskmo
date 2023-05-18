@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Taskmo</string>
+    <string name="title_home">Tasks</string>
+    <string name="title_dashboard">Lists</string>
+    <string name="title_notifications">Settings</string>
+    <string name="new_task">New Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="new_list">New List</string>
+    <string name="edit_list">Edit List</string>
+
+    <string name="create_a_list_prompt">Select or create a new list!</string>
+    <string name="empty_list_prompt">List is empty, click the + to add a task!</string>
+    <string name="default_list"> \u003CDefault List\u003E"</string>
+
+    <string name="add_to_end">(Add To End)</string>
+    <string name="enter">Enter</string>
+    <string name="error_generic">An error occurred!</string>
+    <string name="failure_save">Saving failed!</string>
+    <string name="place_above">Place new task above</string>
+    <string name="error_no_list">No lists found!</string>
+    <string name="number_completed">%1$d out of %2$d tasks completed (%3$d%%)</string>
+    <string name="prompt_list">Select or add a list</string>
+
+
+    <string name="copyright_statement">Taskmo by Rentlar ©2023</string>
+    <string name="license_preamble">     This program is free software, provided to you without any warranty, express or implied. You are granted a license to use, redistribute and/or modify it subject to the terms of the GNU General Public License version 3 as published by the Free Software Foundation, shown below. This license may also be viewed at https://www.gnu.org/licenses/gpl-3.0.html</string>
+    <string name="license_error">Error loading licence. Visit https://www.gnu.org/licenses/gpl-3.0.html</string>
+    <string name="close">Close</string>
+    <string name="my_list">My Lists</string>
+    <string name="error_file_exist">List already exists! Remove it before using this name.</string>
+    <string name="error_no_delete">No file to delete!</string>
+    <string name="error_copy">Copying error!</string>
+    <string name="error_create">Error creating file, invalid file name!</string>
+
+    <string-array name="add_actions">
+        <item>Add</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="edit_actions">
+        <item>Rename</item>
+        <item>Delete</item>
+        <item>Cancel</item>
+    </string-array>
+
+    <string name="unnamed_task">Task %1$d</string>
+    <string name="unnamed_list">New List %1$d</string>
+
+
+
+    <string name="settings">Settings</string>
+    <string name="other">Other</string>
+    <string name="license">License</string>
+    <string name="view_license">Click to view license terms</string>
+    <string name="about">About</string>
+    <string name="view_about">About Taskmo</string>
+    <string name="version">Version</string>
+    <string name="hardcode_version">Version 1.0</string>
+    <string name="softcode_version">Version %$1s</string>
+
+
+    <string name="placement">CheckBox Placement</string>
+    <string-array name="placement_options">
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+    <string-array name="placement_options_internal">
+        <item>left</item>
+        <item>right</item>
+    </string-array>
+
+    <string name="task_size">Size of task text</string>
+    <string name="list_size">Size of list text</string>
+
+
+
+</resources>

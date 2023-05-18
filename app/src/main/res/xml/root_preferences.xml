@@ -1,0 +1,60 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/settings">
+
+
+        <SeekBarPreference
+            android:max="100"
+            app:key="task_size"
+            app:defaultValue="26"
+            app:min="10"
+            app:seekBarIncrement="2"
+            app:showSeekBarValue="true"
+            app:title="@string/task_size">
+
+        </SeekBarPreference>
+
+        <SeekBarPreference
+            android:max="100"
+            app:key="list_size"
+            app:defaultValue="26"
+            app:min="10"
+            app:seekBarIncrement="2"
+            app:showSeekBarValue="true"
+            app:title="@string/list_size">
+
+        </SeekBarPreference>
+
+        <ListPreference
+            app:defaultValue="right"
+            app:entries="@array/placement_options"
+            app:entryValues="@array/placement_options_internal"
+            app:key="task_check_direction"
+            app:title="@string/placement"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/other">
+        <Preference
+            app:title="@string/license"
+            app:summary="@string/view_license">
+            <intent
+                android:targetPackage="com.rentlar.taskmo"
+                android:targetClass="com.rentlar.taskmo.License"/>
+        </Preference>
+        <Preference
+            app:title="@string/version"
+            app:summary="@string/hardcode_version">
+        </Preference>
+
+
+
+
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
