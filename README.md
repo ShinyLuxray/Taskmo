@@ -24,4 +24,11 @@ A Free and Open Source Android application for organizing lists of tasks by Rent
 - Tap and Hold the + button to hide it for better visibility
 - Go to the Settings Tab to adjust the text size and checkbox position
 
+# Screenshot Examples
+![LightModeAPI21](https://github.com/ShinyLuxray/Taskmo/assets/19845217/47a15019-3a87-4ce3-ad8e-4a9198e766af)
+![DarkModeAPI33](https://github.com/ShinyLuxray/Taskmo/assets/19845217/7dec1831-be13-4cbe-88a8-c97aea034267)
+![DarkModeInternational](https://github.com/ShinyLuxray/Taskmo/assets/19845217/80c216b5-c60c-44c2-ba7b-d4d5bda1d3b3)
+![LightModeEmojiAPI26](https://github.com/ShinyLuxray/Taskmo/assets/19845217/d4545fea-5739-4624-b0d5-bbcc497e2ec6)
+
+# 🐜🐞🐛
 You can report bugs to me via a Github issue, or you can fix them yourself :)
